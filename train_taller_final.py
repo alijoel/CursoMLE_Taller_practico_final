@@ -14,7 +14,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 # Configurar MLflow
 mlflow.set_tracking_uri("http://localhost:5000")  # Servidor MLflow local
-mlflow.set_experiment("mlops_example")
+mlflow.set_experiment("credito_experiment_taller")
 
 # Entrenar modelo
 with mlflow.start_run():
