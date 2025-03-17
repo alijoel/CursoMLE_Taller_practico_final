@@ -1,7 +1,4 @@
 pandas
 scikit-learn
 mlflow
-cloudpickle
-pycaret
-uvicorn
-fastapi
+
